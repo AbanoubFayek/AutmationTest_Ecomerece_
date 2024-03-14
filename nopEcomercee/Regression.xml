@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--This is a template to be modified for QA environment tests-->
+<suite name="nop Ecomercee">
+    <test name="Regression_Test">
+        <classes>
+            <class name="TestFeatures.TestRegister"/>
+            <class name="TestFeatures.TestLogin"/>
+            <class name="TestFeatures.ChangePasswordTest"/>
+            <class name="TestFeatures.TestChangeCurrency"/>
+            <class name="TestFeatures.TestMenuHover"/>
+            <class name="TestFeatures.TestEmailFriend"/>
+            <class name="TestFeatures.TestWishlist"/>
+            <class name="TestFeatures.TestSearchOfProduct"/>
+            <class name="TestFeatures.TestShoppingCart"/>
+            <class name="TestFeatures.TestCheckOut"/>
+        </classes>
+    </test>
+</suite>

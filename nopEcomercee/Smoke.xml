@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--This is a template to be modified for QA environment tests-->
+<suite  name="nop Ecomercee">
+    <test name="Smoke_Test_Features">
+        <classes>
+            <class name="TestFeatures.TestRegister"/>
+            <class name="TestFeatures.TestLogin"/>
+        </classes>
+    </test>
+</suite>
